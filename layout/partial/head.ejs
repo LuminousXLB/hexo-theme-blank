@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <% if (theme.favicon){ %>
     <link rel="icon" href="<%- url_for(theme.favicon) %>">
-<% } %>
+  <% } %>
   <% if(config.author){ %>
       <meta name="author" content="<%- config.author %>">
   <% } %>
@@ -60,7 +60,7 @@
 
   <% if(theme.highlight.enable) { %>
     <link rel="stylesheet" href="<%= theme.highlight.style %>">
-    <% } %>
+  <% } %>
 
 </head>
 </html>
