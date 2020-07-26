@@ -18,7 +18,6 @@ logo:
   title: 一时开源一时爽，一直开源一直爽   # 鼠标移到图标显示的文字
 
 
-
 # 顶部菜单
 menu:
   home: { path: /, fa: fab fa-fort-awesome}
@@ -28,7 +27,6 @@ menu:
   about: { path: /about/, fa: fab fa-grav}
   guestbook: { path: /guestbook/, fa: fab fa-telegram}
   friends: { path: /link/, fa: fab fa-weixin}
-
 
 
 # 座右铭
@@ -45,21 +43,23 @@ fancybox:
   enable: true
   script: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
 
-#百度自动推送
+
+# 百度自动推送
 baidu_push:
   enable: false
 
 
-#谷歌分析
+# 谷歌分析
 google_analytics:
-#百度分析
+# 百度分析
 baidu_analytics:
 
 
-## Post copyright
+# Post copyright
 copyright:
   enable: true
   license_text: 本博客所有文章除特别声明外，均采用许可协议 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> 转载请注明出处！
+
 
 # 备案:
 ICP:
@@ -76,16 +76,24 @@ googlefonts:
   link: https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap
 
 
-#highlight
+# mermaid
+mermaid:
+  enable: true
+  script: https://cdn.jsdelivr.net/npm/mermaid@8.6.3/dist/mermaid.min.js
+
+
+# highlight
 highlight:
   enable: true
   style: https://cdn.jsdelivr.net/npm/highlight.js@10.0.3/styles/github.min.css
 # https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.3/build/styles/ 找到你喜欢的代码高亮主题并替换上面
 
-#MathJax
+
+# MathJax
 mathjax:
   enable: true
   script: https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js
+
 
 # Valine 评论系统  https://valine.js.org
 valine:
